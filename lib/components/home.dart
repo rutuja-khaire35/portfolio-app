@@ -19,7 +19,8 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.black45,
           title: const Text('Portfolio App'),
         ),
-        body: Details(),
+        body: SingleChildScrollView(
+          child: Details()),
       ),
     );
   }

@@ -106,9 +106,10 @@ class Details extends StatelessWidget {
                   style: TextStyle(fontSize: 22, color: Colors.white),
                 )
               ],
-            )
+            ),
+            const SizedBox(height: 30),
           ]),
-        )
+        ),
       ],
     );
   }
